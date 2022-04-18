@@ -8,12 +8,11 @@ function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="http:/blog.rhodh.com">
+        blog.rhodh.com
       </Link>
       {' '}
       {new Date().getFullYear()}
-      .
     </Typography>
   );
 }
@@ -40,6 +39,7 @@ export default function Footer(props: FooterProps) {
         >
           {description}
         </Typography>
+        <Copyright />
       </Container>
     </Box>
   );
