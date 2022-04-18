@@ -1,0 +1,6 @@
+project_key    = "blog.rhodh"
+aws_region     = "eu-west-2"
+s3_bucket_name = "blog.rhodh.com"
+domain         = "rhodh.com"
+subdomain      = "blog"
+hosted_zone    = "rhodh.com"

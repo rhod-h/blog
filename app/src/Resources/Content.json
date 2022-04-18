@@ -1,0 +1,24 @@
+{
+  "header": {
+    "name": "Rhodri Hewitson",
+    "links": [
+      {
+        "url": "http://aboutme.rhodh.com",
+        "icon": "website",
+        "name": "AboutMe"
+      }
+    ]
+  },
+  "aboutMe": [
+    "I have been working in the software industry for 11 years and am an enthusiastic and dedicated developer, motivated by exploring new technologies, creating high-performing team cultures and delivering consistent value.\nAs a leader I take the responsibility of developing and mentoring my team seriously, coaching the engineers to collaborate and deliver value to the business, and empowering them to have the confidence to give constructive input in all aspects of delivery.",
+    "I am always eager to develop my abilities by learning new technologies via research and experimentation. I have demonstrable experience in Full Stack Cloud Development both with AWS and Azure tech stack. My goal is to use tech to drive value to the business - not just technology for technology’s sake.",
+    "My experience on building collaborative teams with a culture of improvement is proven, with an approach of continued experimentation to learn from failure.  Instilling a DevOps culture so that engineers have a strong understanding of the whole product lifecycle and are able to make decisions that ensure value to the customer, is very important to me."
+  ],
+  "career": [
+    {
+      "jobTitle": "Lead Software Engineer",
+      "company": "AM Digital",
+      "startDate": "01/07/21"
+    }
+  ]
+}
