@@ -51,7 +51,7 @@ const posts = [post1];
 const sidebar = {
   title: 'About',
   description:
-    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+    "This Blog in built in React, it's deployed on AWS and is delivered by Terraform and Github Actions. The backend is powered by Python using serverless technology",
   archives: [
     { title: 'March 2020', url: '#' },
     { title: 'February 2020', url: '#' },
