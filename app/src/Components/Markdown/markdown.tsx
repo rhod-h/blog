@@ -47,12 +47,11 @@ const options = {
 
 interface MarkdownProps {
   url: string;
-  key: string;
   className: string
 }
 
 export default function Markdown(props: MarkdownProps) {
-  const { url, key, className } = props;
+  const { url, className } = props;
 
   const [md, setMD] = useState('');
 
@@ -64,5 +63,12 @@ export default function Markdown(props: MarkdownProps) {
       });
   });
 
-  return <ReactMarkdown key={key} className={className} options={options}>{md}</ReactMarkdown>;
+  return (
+    <ReactMarkdown
+      className={className}
+      options={options}
+    >
+      {md}
+    </ReactMarkdown>
+  );
 }

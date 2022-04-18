@@ -7,5 +7,5 @@ import App from './app';
 test('Test app does not blow up', () => {
   render(<App />);
 
-  expect(screen.getByText('Rhodri Hewitson')).toBeInTheDocument();
+  expect(screen.getByText('Blog')).toBeInTheDocument();
 });
